@@ -2,3 +2,19 @@
 
 2) f) Vaya a la carpeta donde inicializó el repositorio:
     ¿Puede ver el archivo tp2_1_2.c? ¿Por qué?
+
+    RTA: No está el archivo, porque se creó en una rama diferente.
+
+    ● En la línea principal agregue un nuevo archivo que se llame Respuestas.txt y haga
+    el commit correspondiente
+    ● vuelva a ejecutar el comando gitk --all ¿Qué diferencias nota?
+
+    RTA: cuando se creó el txt, se modificó en el main, y el cambio en la rama "opcion_2" quedó
+    graficado como una rama diferente.
+
+    ● En el Branch master se va a combinar (merge) ambos repositorios. Para esto,
+    utilice el comando git merge Opcion_2 -m “merge opcion 2” 🡨
+    combinamos master con Opcion_2
+    ● Luego utilice el comando gitk –all para ver los cambios, ¿Qué nota?
+
+    RTA: Ahora todos los cambios están asentados en la rama principal.
