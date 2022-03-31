@@ -1,0 +1,4 @@
+-Tp2-
+
+2) f) Vaya a la carpeta donde inicializó el repositorio:
+    ¿Puede ver el archivo tp2_1_2.c? ¿Por qué?
